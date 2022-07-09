@@ -1,0 +1,71 @@
+@import "_variables";
+@import "_fonts";
+
+.header {
+	z-index: 20;
+
+	&__container {
+	}
+
+	&__body {
+		width: 100%;
+		min-height: 118px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	&__logo {
+		&:hover{
+			.header__logo-image{
+				transform: scale(1.1);
+			}
+		}
+	}
+
+	&__logo-link{
+		display: block;
+		display: flex;
+		align-items: center;
+	}
+
+	&__logo-image {
+		position: relative;
+		height: 48px;
+		width: 48px;
+		margin-right: 17px;
+		transition: 0.15s ease;
+	}
+
+	&__name {
+		font-weight: 700;
+		font-size: 22px;
+		line-height: 27px;
+		margin-top: 3px;
+		color: $black;
+	}
+
+	&__mail {
+		&:hover{
+			.header__mail-image{
+				transform: scale(1.2);
+			}
+		}
+	}
+
+	&__mail-image {
+		transition: .15s ease;
+	}
+
+	&__mail-name {
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 19px;
+	}
+
+	&__mail-link{
+		display: flex;
+		align-items: center;
+		color: #383838;
+	}
+}

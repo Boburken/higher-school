@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import "_nullstyle";
+@import "_header";
+@import "_footer";
+@import "_content";
+@import "_fonts";
+@import "_variables";
+
+body{
+	font-family: 'Gilroy', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	background-color: #FFFFFF;
+}
+
+.wrapper{
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	max-width: 1920px;
+	min-height: 100%;
+	margin: 0 auto;
+}
+
+main{
+	flex: 1 1 auto;
+}
+
+[class*="__container"] {
+	position: relative;
+	max-width: 1920px;
+}
+
+[class*="__body"] {
+	max-width: 1170px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+[class*="__grey"] {
+	background-color: #FBFBFB;
+}
+
+[class*="__h1"] {
+	font-size: 64px;
+	color: #0F0F0F;
+	font-weight: 800;
+}
+
+[class*="__h2"] {
+	font-size: 52px;
+	color: #383838;
+	font-weight: 800;
+	line-height: 108.5%;
+}
+
+[class*="__h3"] {
+	font-size: 42px;
+	font-weight: 800;
+	color: #383838;
+	line-height: 108.5%;
+}
+
+/*@media (max-width: 1087px){
+	[class*="__container"] {
+		max-width: 970px;
+	}
+}
+@media (max-width: 991.98px){
+	[class*="__container"] {
+		max-width: 750px;
+	}
+}
+@media (max-width: 767.98px){
+	[class*="__container"] {
+		max-width: none;
+	}
+}*/
+
+input::-webkit-input-placeholder { color: #BCBCBC; }
+
+input::-moz-placeholder { color: #BCBCBC; }
+

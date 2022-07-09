@@ -1,0 +1,57 @@
+.footer {
+	min-height: 150px;
+	background-color: #FFBA6B;
+
+	&__container {
+	}
+
+	&__body {
+		min-height: 150px;
+		display: flex;
+		align-items: center;
+	}
+
+	&__logo {
+		min-width: 208px;
+		margin-right: 11.4529%;
+	}
+
+	&__logo-link {
+		display: block;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__logo-image {
+		
+	}
+
+	&__name {
+		font-weight: 700;
+		font-size: 22px;
+		line-height: 27px;
+		color: #FFFFFF;
+	}
+
+	&__menu {
+		width: 457px;
+	}
+}
+.menu {
+
+	&__items {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__item {
+	}
+
+	&__link {
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 108.5%;
+		color: #FFFFFF;
+	}
+}
